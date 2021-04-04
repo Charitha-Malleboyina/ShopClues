@@ -1,0 +1,20 @@
+.header{
+    height: 60px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+
+    .wrap{
+        max-width: auto;
+        margin: 0px auto;
+        position: relative;
+
+        .logo{
+            position: absolute;
+            top: 35px; left: 110px;
+           
+            
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    }
+}
