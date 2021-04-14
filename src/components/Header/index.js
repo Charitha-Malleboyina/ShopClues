@@ -13,7 +13,9 @@ const Header = props =>{
                     <Link to="/">
                         <img style={{width:"50px",height:"50px"}}src={logo} alt="logo"></img>
                     </Link>
+                    
                 </div>
+                <h1>Shop Clues</h1>
             </div>
             <div className="callToAction">
                 {!currentUser &&(
