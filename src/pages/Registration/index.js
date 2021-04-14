@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import {Route} from 'react-router-dom'
+import Signup from '../../components/Signup';
+
 
 class Registration extends Component {
     constructor(props) {
@@ -11,11 +12,7 @@ class Registration extends Component {
     }
 
     render() {
-        return (
-            <div>
-                <h1>This registration page is under control</h1>
-            </div>
-        )
+        return <Signup />
     }
 }
 
